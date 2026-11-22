@@ -164,3 +164,4 @@ CSRF_TRUSTED_ORIGINS = [
     for origin in os.environ.get('CSRF_TRUSTED_ORIGINS', '').split(',')
     if origin.strip()
 ]
+WHITENOISE_MANIFEST_STRICT = False
